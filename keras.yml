@@ -1,0 +1,14 @@
+name: keras
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - keras-gpu
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pandas
+  - pillow
+  - spyder
+ 
