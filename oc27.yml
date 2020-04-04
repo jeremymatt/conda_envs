@@ -1,0 +1,26 @@
+name: oc27
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7
+  - spyder
+  - os
+  - platform
+  - ogr
+  - osr
+  - sys
+  - gdal
+  - scipy
+  - numpy
+  - pandas
+  - geopandas
+  - datetime
+  - argparse
+  - itertools
+  - datetime
+  - time
+  - statsmodels
+  - matplotlib
+  - shapely
+ 
