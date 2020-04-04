@@ -11,4 +11,6 @@ dependencies:
   - numpy
   - pandas
   - spyder
+  - scipy
+  - librosa
  
