@@ -1,0 +1,14 @@
+name: hw3_gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - tensorflow=1.14.0
+  - tensorflow-estimator=1.14.0
+  - tensorflow-GPU=1.14.0
+  - ffmpeg
+  - matplotlib
+  - pip
+  - spyder

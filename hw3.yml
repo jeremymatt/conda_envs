@@ -1,4 +1,4 @@
-name: hw3basic_gpu
+name: hw3
 channels:
   - conda-forge
   - defaults
@@ -6,8 +6,6 @@ dependencies:
   - python
   - numpy
   - tensorflow=1.14.0
-  - tensorflow-estimator=1.14.0
-  - tensorflow-GPU=1.14.0
   - ffmpeg
   - matplotlib
   - pip
