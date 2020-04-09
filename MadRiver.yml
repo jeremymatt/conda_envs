@@ -1,0 +1,14 @@
+name: madriver
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - anytree
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+  - matplotlib
+  - geopandas
+  - osgeo
