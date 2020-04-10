@@ -1,14 +1,19 @@
 name: madriver
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - python
-  - anytree
+  - spyder
   - numpy
   - pandas
   - scipy
   - seaborn
   - matplotlib
   - geopandas
-  - osgeo
+  - gdal
+  - shapely
+  - pip
+  - pip:                            # Packages installed from PyPI
+    - anytree
+
