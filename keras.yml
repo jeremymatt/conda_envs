@@ -11,4 +11,7 @@ dependencies:
   - pandas
   - pillow
   - spyder
- 
+  - tqdm
+  - seaborn
+  - pymc3
+  - scipy

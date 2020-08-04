@@ -1,17 +1,11 @@
-name: g_tone
+name: make_video
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.7
-  - scipy
-  - nose
-  - mock
-  - matplotlib
   - numpy
-  - pandas
+  - opencv
   - spyder
-  - scipy
-  - librosa
   - tqdm
  
