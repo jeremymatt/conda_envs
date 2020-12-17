@@ -16,6 +16,7 @@ dependencies:
   - pip
   - xlrd
   - xlsxwriter
+  - tqdm
   - pip:                            # Packages installed from PyPI
     - anytree
 
