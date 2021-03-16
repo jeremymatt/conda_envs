@@ -12,4 +12,7 @@ dependencies:
   - numpy
   - pandas
   - spyder
- 
+  - pip
+  - pip:                            # Packages installed from PyPI
+    - somappy
+  
