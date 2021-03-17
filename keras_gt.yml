@@ -11,3 +11,4 @@ dependencies:
   - spyder
   - seaborn
   - librosa
+  - tqdm
