@@ -1,0 +1,19 @@
+name: keras2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - keras-gpu
+  - numpy=1.19.1
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pandas
+  - pillow
+  - spyder
+  - tqdm
+  - seaborn
+  - pymc
+  - scipy
+  - xlrd

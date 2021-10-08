@@ -1,0 +1,24 @@
+name: somtimes
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - spyder
+  - numpy                          #Required by somtimes
+  - pandas
+  - scipy
+  - matplotlib
+  - pip
+  - git
+  - xlrd
+  - xlsxwriter
+  - tqdm
+  - joblib                          #Required by somtimes
+  - h5py                            #Required by tslearn (which is used by somtimes)
+  - cython
+  - pip:                            # Packages installed from PyPI
+    - somtimes
+#    - dtaidistance                  #Required by somtimes
+    - tslearn                       #Required by somtimes (requires scikit-learn & installs that)
+
