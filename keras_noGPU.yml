@@ -1,0 +1,19 @@
+name: keras
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - keras
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pandas
+  - pillow
+  - spyder
+  - tqdm
+  - seaborn
+  - pymc
+  - scipy
+  - xlrd
