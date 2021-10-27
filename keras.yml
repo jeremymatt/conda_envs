@@ -13,7 +13,7 @@ dependencies:
   - pillow
   - spyder
   - tqdm
-#  - seaborn
+  - seaborn
   - pymc
   - scipy
   - xlrd
