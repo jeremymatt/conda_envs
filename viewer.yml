@@ -8,6 +8,8 @@ dependencies:
   - numpy
   - pandas
   - pip
+  - pillow
+  - tqdm
   - pip:                            # Packages installed from PyPI
     - tkFileDialog
     - tkMessageBox
