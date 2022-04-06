@@ -3,9 +3,9 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.7
+  - python
   - keras-gpu
-  - numpy=1.19.1
+  - numpy
   - scikit-learn
   - matplotlib
   - pip
