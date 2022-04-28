@@ -3,12 +3,11 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.7
+  - python
   - spyder
   - numpy
   - pandas
   - scipy
-  - seaborn
   - matplotlib
   - geopandas
   - gdal=2.4.2

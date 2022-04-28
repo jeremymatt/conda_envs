@@ -1,7 +1,7 @@
 name: viewer
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.7
   - spyder
@@ -9,9 +9,10 @@ dependencies:
   - pandas
   - pip
   - pillow
+  - imageio
   - tqdm
-  - pip:                            # Packages installed from PyPI
-    - tkFileDialog
-    - tkMessageBox
-    - tkSimpleDialog
+  #- pip:                            # Packages installed from PyPI
+  #  - tkFileDialog
+  #  - tkMessageBox
+  #  - tkSimpleDialog
 
