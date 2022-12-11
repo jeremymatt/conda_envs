@@ -1,9 +1,8 @@
 name: g_tone
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.7
+  - python
   - scipy
   - nose
   - mock

@@ -1,0 +1,11 @@
+name: controller
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - twilio
+  - pip
+  - spyder = 5.3.0
+  - pip:
+    - suntime

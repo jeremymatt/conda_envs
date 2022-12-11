@@ -1,0 +1,27 @@
+Install:
+	A) CUDA 11.7 (cuda_11.7.0_516.01_windows.exe) 
+	B) CUDNN 8.4.1.50 for CUDA 11.6 (cudnn-windows-x86_64-8.4.1.50_cuda11.6-archive.zip)
+	C) Create empty environment & install one-by-one:
+		From defaults channel:
+			1) keras-gpu 2.4.3
+			2) tensorflow 2.5.0
+			3) numpy, scikit-learn, pandas, tqdm, pymc3, scipy, xlrd
+		From conda-forge channel:
+			1) spyder &/or spyder-kernels
+			2) matplotlib
+
+name: keras
+channels:
+  - defaults
+dependencies:
+  - keras-gpu=2.3.1
+  - tensorflow=2.3.0
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - tqdm
+  - pymc3
+  - scipy
+  - xlrd
